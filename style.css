@@ -1,0 +1,253 @@
+/**SCROLLBAR////////////////////////////////////////////////////////////////////////////*/
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+::-webkit-scrollbar-track {
+    background: var(--colorbackground);
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #151420;
+    border-radius: 16px;
+}
+
+/**ROOT////////////////////////////////////////////////////////////////////////////*/
+
+
+:root{
+    --colorbackground: rgba(40, 49, 57, 1);
+    --colorfont: rgba(252, 235, 215, 1);
+    --colorfooter: #FECE93;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**SECTION/////////////////////////////////////////////////////*/
+
+section {
+    width: 84.3rem;
+    height: 48rem;
+    background: var(--colorbackground);
+}
+
+/**PICTURES/////////////////////////////////////////////////////*/
+
+.picture-i {
+    width: 24.7rem;
+    height: 25rem;
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.315);
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.606);
+}
+
+
+img.picture {
+    width: 16.4rem;
+    height: 23rem;
+    border-radius: 18px;
+}
+
+
+/**PARALLAX/////////////////////////////////////////////////////*/
+
+section#parallax-page-one {
+
+    color: var(--colorfont);
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    background-image: url(./fotos/parallax/parallax1.jpg);
+    background-size: 84.5rem;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.welcome-text {
+    margin-bottom: 9rem;
+    cursor: pointer;
+    
+}
+h1.welcome-text:hover {
+    
+    transform: scale(1.1);
+    transition: all linear 0.2s;
+}
+
+
+section#parallax2-page-one {
+
+    color: var(--colorfont);
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-top: 1px solid var(--colorfont);
+
+    background-image: url(./fotos/parallax/parallax2.jpg);
+    background-size: 85rem;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    
+}
+
+p.mini-text {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+/**ABOUT/////////////////////////////////////////////////////*/
+
+section#about-page-one {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: var(--colorfont);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15rem;
+
+}
+
+div.box-text {
+
+    width: 33.3vw;
+}
+
+p.presentation{
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/**HOURS-OPTIONS/////////////////////////////////////////////////////*/
+section.box-hours {
+
+    height:38.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid var(--colorfont);
+}
+
+
+div.nav-hours {
+
+    display: flex;
+    
+    height: 16.5rem;
+    text-align: center;
+    align-items: center;
+
+    gap: 2.2rem;
+    
+
+}
+
+div.mid-down {
+    margin-top: 4rem;
+}
+
+img.picture {
+    margin-top: 4rem;
+    transition: all linear 0.2s;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.606);
+}
+
+img.picture:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/**NAME/////////////////////////////////////////////////////*/
+
+div.box-name {
+
+    background: var(--colorbackground);
+    height: 5.7rem;
+    width: 84.3rem;
+
+    padding: 1.5rem;
+
+}
+
+a {
+    color: var(--colorfont);
+
+    letter-spacing: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+a:hover {
+    color: rgba(248, 58, 66, 1)
+    ;
+}
+
+/**FOOTER/////////////////////////////////////////////////////*/
+
+footer {
+
+    background: var(--colorfooter);
+    width: 84.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box-social {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div.nav-social {
+
+
+    padding: 2rem;
+    display: flex;
+    
+    
+    text-align: center;
+
+    gap: 3.2rem;
+
+    
+}
+
+.social-img {
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+.social-img:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
+}
