@@ -31,7 +31,7 @@
 /**SECTION/////////////////////////////////////////////////////*/
 
 section {
-    width: 84.3rem;
+    width: auto;
     height: 48rem;
     background: var(--colorbackground);
 }
@@ -95,7 +95,7 @@ section#parallax2-page-one {
 
     background-image: url(./fotos/parallax/parallax2.jpg);
     background-size: 85rem;
-    background-position: center top;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -186,7 +186,7 @@ div.box-name {
 
     background: var(--colorbackground);
     height: 5.7rem;
-    width: 84.3rem;
+    width: auto;
 
     padding: 1.5rem;
 
@@ -213,7 +213,7 @@ a:hover {
 footer {
 
     background: var(--colorfooter);
-    width: 84.3rem;
+    width: auto;
 
     display: flex;
     align-items: center;
